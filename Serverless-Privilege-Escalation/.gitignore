@@ -1,0 +1,9 @@
+# Ignore local terraform state tracking files
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Ignore system variables or temporary log buffers
+*.log
+.env
